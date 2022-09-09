@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="../css/estilos.css">
+</head>
+  <body>
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" >
+		<div class="container-fluid" >
+		  <a class="navbar-brand" href="index.html">Animes+</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+			<ul class=" navbar-nav me-auto mb-2 mb-lg-0 ">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="index.html">inicio</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="animes.html">Animes</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link ">Disabled</a>
+			  </li>
+			</ul>
+			<form class="d-flex" role="search">
+				<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+			  	<button class="btn btn-outline-secondary" type="submit">Search</button>
+			</form>
+		  </div>
+		</div>
+	  </nav>
+	  <div id="mySlide" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#mySlide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#mySlide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#mySlide" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../image/f1.jpg" class="d-block w-100" alt="...">
+            
+          </div>
+          <div class="carousel-item">
+            <img src="../image/f2.jpg" class="d-block w-100">
+				<div class="carousel-caption d-none d-md-block">
+                <h1>DEMON SLAYER</h1>
+                <p>NUEVO VIDEOS</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../image/f3.jpg" class="d-block w-100">
+				<div class="carousel-caption d-none d-md-block">
+                <h1>ONE PUCH MAN</h1>
+                <p>NUEVO VIDEOS</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#mySlide" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mySlide" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+	  <div class="container marketing">
+		<div class="row">
+			<div class="col-lg-4">
+			<img src="../image/f4.jpg" class="d-block w-100 bd-placeholder-img rounded-circle" alt="" width="140" height="140">
+	
+			<h2 class="fw-normal">Dragon ball Z</h2>
+			<p>es un manga escrito e ilustrado por Akira Toriyama. Su trama describe las aventuras de Gokū, un guerrero saiyajin, experto en artes marciales que en su infancia inicia sus viajes y aventuras en las que pone a prueba y mejora sus habilidades de pelea,</p>
+			<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+			</div><!-- /.col-lg-4 -->
+			<div class="col-lg-4">
+			<img src="../image/F5.jpg" class="d-block w-100 bd-placeholder-img rounded-circle" alt="" width="140" height="140" >
+			<h2 class="fw-normal">One piece</h2>
+			<p>Esta historia se sitúa en el momento más álgido de la Gran Era de los Piratas, cuando el joven Monkey D. Luffy quiere llegar a ser el Rey de los Piratas y hacerse al fin con un legendario tesoro, el One Piece.</p>
+			<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+			</div><!-- /.col-lg-4 -->
+			<div class="col-lg-4">
+			<img src="../image/F6.jpg" class="d-block w-100 bd-placeholder-img rounded-circle" alt="" width="140" height="140" >	
+			<h2 class="fw-normal">Naruto</h2>
+			<p>es una serie animada de origen japonés basada en el manga del mismo nombre, escrito e ilustrado por Masashi Kishimoto. La obra narra la historia de un ninja huérfano adolescente llamado Naruto Uzumaki, cuyos padres murieron en el ataque del Zorro Demonio de Nueve Colas,</p>
+			<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+			</div><!-- /.col-lg-4 -->
+		</div>
+	   </div>	
+      <hr>
+	  <footer class="container">
+		<p class="float-end"><a href="#">Back to top</a></p>
+		<p>&copy; 2017–2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+	  </footer>
+	</body>
+</html>
